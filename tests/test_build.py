@@ -3,8 +3,8 @@ import os
 import numpy as np
 import pytest
 import six
-from keras import backend as K
-from keras import utils
+from tensorflow.keras import backend as K
+from tensorflow.keras import utils
 from keras_applications.imagenet_utils import decode_predictions
 from keras_preprocessing.image import img_to_array, load_img
 

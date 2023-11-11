@@ -21,8 +21,8 @@ import os
 import math
 from typing import List
 
-from keras import backend as K
-from keras import layers
+from tensorflow.keras import backend as K
+from tensorflow.keras import layers
 from keras.models import Model
 from keras.utils import get_file, get_source_inputs
 
